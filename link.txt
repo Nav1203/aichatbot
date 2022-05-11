@@ -1,0 +1,2 @@
+https://medium.com/@ritidass29/create-your-chatbot-using-python-nltk-88809fa621d1
+https://towardsdatascience.com/how-to-build-your-own-chatbot-using-deep-learning-bb41f970e281

@@ -1,0 +1,46 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag":"feeling",
+    "patterns":["How are you?","Are you ok?","Are you fine?","How are you today?"],
+    "responses":["I am fine, thanks for asking!","I am glad that you asked, Im fine!","It is indeed a lovely day for me!"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Adriana, your bot assistant", "I'm Adriana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Adriana.", "I'm Adriana!", "Just call me as Adriana"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {
+        "tag":"activites",
+        "patterns":["Can you sing a song?","Will you do this for me?","Can you tell a joke?","Do a sommersault"],
+        "responses":["Im so Sorry but i have no idea how to do that :(","I havent learned all that as of yet, maybe in the future! :)"]
+    },
+    {
+        "tag":"open_time",
+        "patterns":["Is campus open?","What time is VIT open?","When is VIT open?","What all time is VIT open?"],
+        "responses":["VIT is open from 8 am to 6pm Everyday!"]
+    },
+    {
+        "tag":"booking",
+        "patterns":["What is VIT's contact details?","Where is VIT?","How do i contact VIT?","Does VIT have any phone numbers?","Is VIT available on call?"],
+        "responses":["VIT's contact details are: Vandalur,Kelambakkam Road, Chennai, 600 127, 044 3993 1555, Fax : 044 3993 2555, Email: admin.chennai@vit.ac.in"]
+    }
+]
+}

@@ -1,0 +1,102 @@
+.title{
+  text-align: center;
+  font-family: monospace;
+  color:white;
+  font-style: italic;
+  font-weight: 10;
+}
+body{
+  background-color: rgba(0, 48, 119, 0.93);
+}
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+  /* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+  /* Style images */
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+.time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+.time-left {
+    float: left;
+    color: #999;
+  }
+.msg{
+  text-align: center;
+  padding-inline: 100px;
+}
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height:50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inp{
+  font-size: 14px;
+  border-radius: 10px;
+  border-color:grey;
+  height: 30px;
+  width: 400px;
+  color:rgb(253, 253, 253);
+  background-color: rgba(0, 48, 119, 0.93);
+  font-style: italic;
+  font-weight: 200;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.butstyle:hover{
+  background-color: white;
+  color:rgba(0, 48, 119, 0.93);
+  transition: 0.75s;
+}
+.butstyle{
+  background-color:rgba(0, 48, 119, 0.93);
+  border-radius: 10px;
+  color:white;
+  width: 75px;
+  transition: 0.75s;
+}
+::placeholder{
+  color:white;
+}
